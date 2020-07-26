@@ -15,6 +15,7 @@
 		A8CF27D324C93C78005E3350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CF27D124C93C78005E3350 /* LaunchScreen.storyboard */; };
 		A8CF27DE24C93C79005E3350 /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF27DD24C93C79005E3350 /* tipTests.swift */; };
 		A8CF27E924C93C79005E3350 /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF27E824C93C79005E3350 /* tipUITests.swift */; };
+		A8CF27F724C94633005E3350 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CF27F624C94633005E3350 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A8CF27E424C93C79005E3350 /* tipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CF27E824C93C79005E3350 /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		A8CF27EA24C93C79005E3350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8CF27F624C94633005E3350 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A8CF27C824C93C76005E3350 /* SceneDelegate.swift */,
 				A8CF27CA24C93C76005E3350 /* ViewController.swift */,
 				A8CF27CC24C93C76005E3350 /* Main.storyboard */,
+				A8CF27F624C94633005E3350 /* SettingsViewController.swift */,
 				A8CF27CF24C93C78005E3350 /* Assets.xcassets */,
 				A8CF27D124C93C78005E3350 /* LaunchScreen.storyboard */,
 				A8CF27D424C93C78005E3350 /* Info.plist */,
@@ -262,6 +265,7 @@
 				A8CF27CB24C93C76005E3350 /* ViewController.swift in Sources */,
 				A8CF27C724C93C76005E3350 /* AppDelegate.swift in Sources */,
 				A8CF27C924C93C76005E3350 /* SceneDelegate.swift in Sources */,
+				A8CF27F724C94633005E3350 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,13 +438,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDGCC2DY4C;
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Codepath.tip;
+				PRODUCT_BUNDLE_IDENTIFIER = zubairshaik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,13 +457,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDGCC2DY4C;
 				INFOPLIST_FILE = tip/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Codepath.tip;
+				PRODUCT_BUNDLE_IDENTIFIER = zubairshaik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
